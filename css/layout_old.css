@@ -1,0 +1,39 @@
+body{
+font-family: Arial;
+}
+
+#wrap{
+	width: 1100px;
+	margin: 0 auto;
+}
+nav{
+	width: 1100px;
+	height: 110px;
+	background: url("../images/nav_bg.png") repeat-x scroll 0px 64px transparent;
+}
+nav ul{
+	list-style-type: none;
+	padding: 65px 100px;	
+}
+nav ul li{
+	background: url("../images/nav_list_bg.png") repeat-x;
+	float: right;
+	height: 34px;
+	padding: 10px 15px 0;
+	color: #585555;
+	border: 1px solid #dbdbdb;
+}
+.nav_selected{
+	background: url(../images/nav_list_bg_selected.png) repeat-x;
+	color: #388dc7;
+	border-bottom: none;
+}
+nav ul li:hover{
+	background: url(../images/nav_list_bg_selected.png) repeat-x;
+	color: #388dc7;
+	border-bottom: none;
+}
+#logo{
+	float: left;
+	padding-left: 130px;
+}

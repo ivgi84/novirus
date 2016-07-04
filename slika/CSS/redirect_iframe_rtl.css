@@ -1,0 +1,336 @@
+﻿body 
+{
+    font-family:Arial;
+    font-size:14px;
+    color:black;
+}
+
+#MainDiv
+{
+    width:380px;
+    border: 1px solid black;
+    height:460px;
+    text-align:center;
+}
+
+#headTextRow
+{
+    color:Green;
+    font-size:17px;
+    text-align:center;
+    padding-bottom:20px;
+}
+
+#creditCardRow
+{
+    width:100%;
+    padding-bottom:30px;
+    *+padding-bottom:10px;
+}
+
+#creditCardRow div
+{
+    float:right;
+    text-align:right;
+    width:40%;
+}
+
+#creditCardExpDateRow
+{
+    text-align:center;
+    width:100%;
+    padding-bottom:30px;
+    *+padding-bottom:10px;
+}
+
+
+
+#creditCardExpDateRow div
+{
+   float:right;
+    text-align:right;
+    width:40%;
+}
+
+#cardHolderIdRow
+{
+    text-align:center;
+    width:100%;
+    padding-bottom:30px;
+    *+padding-bottom:10px;
+}
+
+#cardHolderIdRow div
+{
+    float:right;
+    text-align:right;
+    width:40%;
+}
+
+#cvvRow
+{
+    text-align:center;
+    width:100%;
+    padding-bottom:30px;
+    *+padding-bottom:10px;
+}
+
+#cvvRow div
+{
+    float:right;
+    text-align:right;
+    width:40%;
+}
+
+#paymentsNoRow
+{
+    text-align:center;
+    width:100%;
+    padding-bottom:30px;
+    *+padding-bottom:10px;
+}
+
+#paymentsNoRow div
+{
+    float:right;
+    text-align:right;
+    width:40%;
+}
+
+#paymentsNo
+{
+    float:right;
+    padding:0px;
+    width:28%;
+    border: 1px solid gray;
+}
+
+#year
+{
+    float:right;
+    width:57px;
+    border: 1px solid gray;
+}
+
+.dateDelimiter
+{
+    float:right;
+    line-height:20px;
+    padding:0 5% 0 5%;
+}
+
+#month
+{
+    float:right;
+    width:53px;
+    border: 1px solid gray;
+}
+
+div input
+{
+    float:right;
+    width:129px;
+    border: 1px solid gray;
+    
+}
+
+#warning
+{
+    font-size:14px;
+    color:Red;
+    font-weight:bold;
+    clear:both;
+    padding:5px 0 0 0;
+}
+
+#warning div
+{
+    
+}
+
+#submitRow
+{
+    line-height:23px;
+    clear:both;
+    text-align:center;
+    width:100%;
+    padding:15px 0 15px 0;
+}
+
+#submitRow input
+{
+    width:154px;
+    float:none;
+    
+}
+
+#bottomText
+{
+    font-size:14px;
+    color:Blue;
+    clear:both;
+}
+
+#submitBtn
+{
+    background-image:url("https://gateway.pelecard.biz/Content/images/PayNow_15.png");
+    background-repeat:no-repeat;
+    width:154px;
+    height:23px;
+    border:none;
+    cursor:pointer;
+}
+
+#PayBtn
+{
+    background-image:url("https://gateway.pelecard.biz/Content/images/Pay_03.png");
+    background-repeat:no-repeat;
+    width:154px;
+    height:23px;
+    border:none;
+    cursor:pointer;
+}
+
+#RegisterBtn
+{
+    background-image:url("https://gateway.pelecard.biz/Content/images/Register_03.png");
+    background-repeat:no-repeat;
+    width:154px;
+    height:23px;
+    border:none;
+    cursor:pointer;
+}
+
+#registerBtn
+{
+    background-image:url("https://gateway.pelecard.biz/Content/images/RegisterBtn_03.png");
+    background-repeat:no-repeat;
+    width:154px;
+    height:23px;
+    border:none;
+    cursor:pointer;
+}
+
+a
+{
+    color:#1c75e4;
+}
+
+#orderWhite
+{
+    background-image:url("https://gateway.pelecard.biz/Iframe/Content/images/OrderDetailsWhite_03.png");
+    background-repeat:no-repeat;
+    width:375px;
+    height:492px;
+    vertical-align:bottom;
+    margin:14px 10px 10px 10px;
+    text-align:center;
+}
+
+#info
+{
+    vertical-align:middle;
+    cursor:pointer;
+}
+
+#creditTypes
+{
+       vertical-align:middle;
+    cursor:pointer;
+}
+
+#ParmX
+{
+    padding:5px 0 5px 0;
+    font-size:14px;
+}
+
+#totalRow
+{
+    line-height:23px;
+    clear:both;
+    text-align:center;
+    width:100%;
+}
+
+#totalRow div
+{
+    float:right;
+    text-align:right;
+    width:40%;
+} 
+
+#parmxRow
+{
+    line-height:23px;
+    clear:both;
+    text-align:center;
+    width:100%;
+}
+
+#parmxRow div
+{
+    float:right;
+    text-align:right;
+    width:40%;
+} 
+
+#totalToDisplay
+{
+    font-weight:bold;
+    font-size:14px;
+    color:Gray;
+    float:right;
+}
+#textForPayments
+{
+    font-family:Arial;
+    font-size:12px;
+    color:#898989;
+    margin-right:3px;
+    float:none;
+}
+
+#supportedCrds
+{
+    padding:5px 0 0 0;
+    background-image:url('https://gateway.pelecard.biz/Iframe/Content/Images/CardsBG.png');
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+#secureIcons
+{
+    line-height:23px;
+    clear:both;
+    text-align:center;
+    width:100%;
+}
+
+#secureIconsRow
+{
+    background-image:url('https://gateway.pelecard.biz/Iframe/Content/Images/CardsBG.png');
+    background-repeat:no-repeat;
+    background-position:center center;
+    height:54px;
+    margin:5px 0 0 0;
+}
+#secureIconsRow div
+{
+    text-align:center;
+    display:inline;
+} 
+
+#secureIconsRow div img
+{
+    width:95px;
+    cursor:pointer;
+    margin:5px 0 0 0;
+    position:relative;
+} 
+
+#MainDiv div.spacer
+{
+   width:8%;
+   float:right;
+}

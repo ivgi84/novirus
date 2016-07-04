@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Arial;
+}
+-->
+</style></head>
+
+<body>
+<div style="float:right; width:50%">
+ <form action="Pay.aspx" method="post" name="form1" dir="rtl" target="frame">
+    <table id="webSiteTable" cellpadding="0" cellspacing="0" width="600" >
+        <tr>
+
+            <td style="width:500px" dir="rtl">
+
+<input name="goodUrl" type="text" value="http://online.pelecard.biz/good.asp" size="60" /> - On Success Go to Url  <br />
+<input name="errorUrl" type="text" value="http://online.pelecard.biz/error.asp" size="60" /> - On Error Go to Url  <br />
+<br />
+<input name="total" type="text" value="100" size="60" /> - Total  <br />
+<input name="currency" type="text" value="1" size="60" /> - Currency  <br />
+<br />
+<input name="maxPayments" type="text" value="12" size="60" /> - Maximum Payments  <br />
+<input name="minPaymentsNo" type="text" value="1" size="60" /> - Minimum Payments  <br />
+<input name="creditTypeFrom" type="text" value="7" size="60" /> - Credit Type From  <br />
+<br />
+<input name="styleSheetAddress" type="text" value="" size="60"  /> - StyleSheet Address <br />
+<input name="headText" type="text" value="" size="60"  /> - Header Text <br />
+<input name="bottomText" type="text" value="" size="60"  /> - Footer Text <br />
+<br />
+<input name="hidePelecardLogo" type="text" value="" size="60"  /> - Hide Pelecard Logo <br />
+<input name="Background" type="text" value="" size="60"  /> - Background Color <br />
+<input name="backgroundImage" type="text" value="" size="60"  /> - background Image <br />
+<input name="topMargin" type="text" value="" size="60"  /> - Top Margin <br />
+<br />
+<input name="supportedCardTypes" type="text" value="True,True,True,True,True" size="60"  /> - Accepted credit cards <br />
+<input name="Parmx" type="text" value="Test" size="60" /> - Additional Details  <br />
+<input name="hideParmx" type="text" value="" size="60" /> - Hide Additional Details <br />
+<input name="cancelUrl" type="text" value ="" size="60" /> - On Cancel Go to Url  <br />
+<input name="supportPhone" type="text" value ="" size="60" /> - Support Phone Number  <br />
+<input name="errorText" type="text" value ="" size="60" /> - Error Text Message  <br />
+<br />
+<input name="id" type="text" value="123456789" size="60" /> -  Card Holder Id / Social Securit Code <br />
+<input name="cvv2" type="text" value="Must" size="60" /> -  Cvv2 <br />
+<input name="authNum" type="text" value="" size="60" /> -  Authentication Number <br />
+<input name="shopNo" type="text" value="001" size="60" /> - Shop No  <br />
+<input name="frmAction" type="text" value="CreateToken" size="60" /> - Create Token  <br />
+<input name="TokenForTerminal" type="text" value="" size="60" /> - Create Token For other Terminal Number  <br />
+<input name="J5" type="text" value ="" size="60" /> - J5  <br />
+<input name="keepSSL" type="text" value ="" size="60" /> - Use SSL on Response  <br />
+
+
+                <input type="submit" value="  Send  " />
+            </td>
+
+        </tr>
+    </table>
+    </form>
+</div>
+<div style="float:left; width:50%">
+<iframe id="frame" name="frame" frameborder="0" scrolling="no" src="Pay.aspx" style="height:480px; width:400px "></iframe>
+</div>
+
+</body>
+</html>
